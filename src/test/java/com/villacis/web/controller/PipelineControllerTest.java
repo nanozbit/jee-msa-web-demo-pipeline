@@ -31,6 +31,6 @@ class PipelineControllerTest {
         .andExpect(status().isOk())
         .andExpect(jsonPath("$.status").value("UP"))
         .andExpect(jsonPath("$.environment").value("OpenShift Sandbox"))
-        .andExpect(jsonPath("$.message").value("Pipeline successfully executed"));
+        .andExpect(jsonPath("$.message").value("Pipeline successfully executed Wilson"));
   }
 }
