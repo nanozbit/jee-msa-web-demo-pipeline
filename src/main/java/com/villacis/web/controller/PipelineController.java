@@ -17,6 +17,6 @@ public class PipelineController {
     return Map.of(
         "status", "UP",
         "environment", "OpenShift Sandbox",
-        "message", "Pipeline successfully executed");
+        "message", "Pipeline successfully executed Wilson");
   }
 }
